@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 # Created By: Atri Sarker
 # Date: May 12, 2025
-# DESCRIPTION HERE
+# Calculator
 
 
 def calculate(sign: str, num1: float, num2: float) -> float:

@@ -5,7 +5,7 @@
 
 
 def calculate(sign: str, num1: float, num2: float) -> float:
-    # MATCH sign with operand
+    # MATCH sign with operator
     match sign:
         case "+":
             return num1 + num2

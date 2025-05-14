@@ -49,7 +49,7 @@ def main():
                     # CALL calculate() and get the result
                     result = calculate(user_sign, num1, num2)
                     # Display the result
-                    print(f"{num1} {user_sign} {num2} = {result}")
+                    print(f"{num1:g} {user_sign} {num2:g} = {result:g}")
             else:
                 print(f"{user_sign} is not a recognized operator.")
         except ValueError:
